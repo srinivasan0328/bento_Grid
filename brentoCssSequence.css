@@ -1,0 +1,118 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+
+/* step2: component */
+.cardSection{
+    background-color: #7bb9b9;
+}
+
+/* step3: componentContainer */
+.cardContainer{
+    background-color: #ffff00;
+}
+
+/* step4: row */
+.cardBody{
+    background-color: #f5deb3;
+}
+
+/* step5: column */
+.cardBlock{
+    background-color: #ff6347;
+}
+
+/* step6: subColumn */
+.cardBox{
+    background-color: #4682b4;
+}
+
+/* .cardHead */
+.cardHead{
+    background-color: #6a5acd;
+}
+
+/* step7: contentContainer */
+
+.cardHead h2{
+    background-color: #b96359;
+}
+
+/* .cardMain */
+.cardMain{
+    background-color: #552828;
+}
+
+.cardImg{
+    background-color: #d83fd3;
+}
+
+/* step7: contentContainer */
+.cardImg img{ 
+    background-color: #59d83f;
+}
+
+/* step2: component */
+.footerSection{
+    background-color: #59d83f;
+}
+
+/* step3: componentContainer */
+.footerContainer{
+    background-color: #ffff00;
+}
+
+/* step4: row */
+.footerBody{
+    background-color: #552828;
+}
+
+/* step5: column */
+.footerBlock{
+    background-color: #6a5acd;
+}
+
+/* step6: subColumn */
+.footerBox{
+    background-color: #7bb9b9;
+}
+
+/* step7: contentContainer */
+.footerBox p{
+    background-color: #50c2c2;
+}
+
+/* step7: contentContainer */
+.footerBox a{
+    background-color: #8ba440;
+}

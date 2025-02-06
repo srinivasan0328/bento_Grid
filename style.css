@@ -1,0 +1,215 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ededed;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+    font-family: "DM Sans", sans-serif;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #000000;
+    --tertiaryColor: #7650dc;
+    --QuaternaryColor: #ffcb6b;
+    --lightColor1: #DACFFC;
+    --lightColor2: #F9EEE1;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    /* --ffPrimary: "Merienda", sans-serif; */
+    --ffSecondary: "DM Sans", sans-serif;
+}
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+ }
+
+.componentSpacing {
+    padding: 3rem 0rem;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+/* Navbar code */
+
+/* Hero Section code */
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+/* Our Menu code */
+
+/* Facility code */
+/* Facility code */
+
+/* Popular code */
+/* Popular code */
+
+/* Gallery code */
+/* Gallery code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icons code */
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* Small devices (phones up to 576px) */
+@media (max-width: 576px) {
+    /* write code here */
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (width >=1200px) {
+    /* write code here */
+}
